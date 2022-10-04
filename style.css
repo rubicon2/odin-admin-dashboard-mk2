@@ -60,6 +60,10 @@
     --fs-400: 1.1rem;
 }
 
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 /* || ZEROING DEFAULT STYLES */
 body,
 h1, h2, h3, h4, h5, h6,
@@ -160,7 +164,8 @@ nav {
     color: var(--clr-dash);
 }
 
-nav a {
+nav a,
+nav a:visited {
     color: var(--clr-dash);
 }
 
