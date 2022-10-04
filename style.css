@@ -1,0 +1,100 @@
+/* || FONT SETUP */
+@font-face {
+    font-family: Roboto;
+    src: url("fonts/roboto/Roboto-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("fonts/roboto/Roboto-LightItalic.ttf");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("fonts/roboto/Roboto-Medium.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("fonts/roboto/Roboto-MediumItalic.ttf");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("fonts/roboto/Roboto-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("fonts/roboto/Roboto-BoldItalic.ttf");
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* || ROOT STYLES AND VARIABLES */
+:root {
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-weight: 300;
+
+    --bg-clr-primary: hsl(232, 81%, 71%);
+    --bg-clr-neutral: hsl(0, 0%, 90%);
+
+    --clr-neutral-900: hsl(0, 0%, 5%);
+    --clr-neutral-400: hsl(0, 0%, 15%);
+    --clr-link: hsl(232, 30%, 30%);
+    --clr-link-hover: hsl(232, 15%, 50%);
+
+    --fs-xl: clamp(4.1rem, 5vw + 1rem, 5.1rem);
+    --fs-600: 2.1rem;
+    --fs-500: 1.35rem;
+    --fs-400: 1.1rem;
+}
+
+/* || ZEROING DEFAULT STYLES */
+body,
+h1, h2, h3, h4, h5, h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a, a:hover, a:visited {
+    text-decoration: none;
+}
+
+/* || GENERAL STYLES */
+body {
+    background-color: var(--bg-clr-neutral);
+    color: var(--clr-neutral-400);
+
+    font-size: var(--fs-400);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--clr-neutral-900);
+    font-weight: 400;
+}
+
+a, a:visited {
+    color: var(--clr-link);
+    font-weight: 400;
+
+}
+
+a:hover {
+    color: var(--clr-link-hover);
+}
