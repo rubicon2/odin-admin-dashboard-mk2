@@ -210,7 +210,35 @@ aside {
 
 }
 
+.project {
+    overflow: hidden;
+}
+
+.project-content {
+    height: 100%;
+    margin-left: 1rem;
+    padding: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.project-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: auto;
+    margin-left: auto;
+}
+
 /* || LAYOUT - ASIDE */
+.news {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    padding: 1.5rem;
+}
 
 
 /* || STYLES - GENERAL */
@@ -331,4 +359,22 @@ header {
     border: none;
     border-radius: 25px;
     box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.02);
+}
+
+.project {
+    background-color: orange;
+}
+
+.project-content {
+    background-color: var(--clr-dash);
+}
+
+.news-item {
+
+}
+
+.news-border {
+    width: 100%;
+    height: 1px;
+    background-color: var(--bg-clr-neutral);
 }
