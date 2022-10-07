@@ -326,13 +326,9 @@ header {
 }
 
 /* || STYLES - MAIN, ASIDE */
-/* main, 
-aside {
-    background-color: var(--bg-clr-neutral);
-} */
-
 .main-dash-item {
     background-color: var(--clr-dash);
     border: none;
     border-radius: 25px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.02);
 }
