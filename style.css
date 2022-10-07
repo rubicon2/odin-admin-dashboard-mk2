@@ -232,14 +232,26 @@ aside {
 }
 
 /* || LAYOUT - ASIDE */
-.news {
+.news,
+.trending {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 
-    padding: 1.5rem;
+    padding: 0 1.5rem;
 }
 
+.trending-item {
+    display: flex;
+    align-items: center;
+    gap: 0 1rem;
+}
+
+.trending-item-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
 
 /* || STYLES - GENERAL */
 body {
