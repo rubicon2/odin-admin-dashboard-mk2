@@ -379,7 +379,7 @@ header {
 }
 
 /* || MEDIA QUERIES */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .header-info {
         flex-direction: column;
         text-align: center;
