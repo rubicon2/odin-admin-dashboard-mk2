@@ -7,13 +7,18 @@
     </head>
     <body>
         <header>
-            <div class="header-search-bar">
-                <img src="img/magnify.svg">
-                <input type="text" name="search-string" id="search-input">
-                <img src="img/bell-ring-outline.svg">
+            <nav class="search-bar" role="search">
+                <button type="button" class="search-button" aria-label="Search">
+                    <img src="img/magnify.svg" class="search-icon" alt="" aria-hidden="true">
+                </button>
+                <input type="text" name="search-string" id="search">
+                <button type="button" aria-label="Notifications">
+                    <img src="img/bell-ring-outline.svg" alt="" aria-hidden="true">
+                </button>
+                
                 <img src="img/profile-photo.png" class="profile-photo">
                 <span class="username">Jean-Luc Picard</span>
-            </div>
+            </nav>
             <div class="header-info">
                 <img src="img/profile-photo.png" class="profile-photo">
                 <div class="header-greeting">
@@ -22,13 +27,13 @@
                 </div>
                 <!-- Buttons in their own div so their own specific flex gap can be applied. -->
                 <div class="header-buttons">
-                    <button type="button">New</button>
-                    <button type="button">Upload</button>
-                    <button type="button">Share</button>
+                    <button type="button" class="header-button">New</button>
+                    <button type="button" class="header-button">Upload</button>
+                    <button type="button" class="header-button">Share</button>
                 </div>
             </div>
         </header>
-        <nav>
+        <nav class="main-nav">
             <div class="dashboard-title">
                 <img src="img/view-dashboard.svg">
                 Dashboard
