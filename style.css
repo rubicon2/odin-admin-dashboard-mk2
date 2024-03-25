@@ -238,9 +238,14 @@ aside {
 
 .project-buttons {
     display: flex;
-    gap: 1rem;
+    gap: 0.5rem;
     margin-top: auto;
     margin-left: auto;
+}
+
+.project-button {
+    background-color: white;
+    border: none;
 }
 
 /* || LAYOUT - ASIDE */
