@@ -44,9 +44,9 @@
     font-family: Roboto;
     font-weight: 300;
 
-    --bg-clr-primary: hsl(232, 81%, 71%);
-    --bg-clr-primary-light: hsl(232, 91%, 75%);
-    --bg-clr-primary-dark: hsl(232, 61%, 60%);
+    --bg-clr-primary: hsl(232, 41%, 56%);
+    --bg-clr-primary-light: hsl(232, 62%, 56%);
+    --bg-clr-primary-dark: hsl(232, 40%, 38%);
     --bg-clr-neutral: hsl(0, 0%, 90%);
 
     --clr-neutral-900: hsl(0, 0%, 5%);
